@@ -1,0 +1,542 @@
+[
+    {
+        "af": 6,
+        "avg": 42.8079566667,
+        "dst_addr": "2001:500:2f::f",
+        "dst_name": "2001:500:2f::f",
+        "dup": 0,
+        "from": "2a00:1590:7::1",
+        "fw": 4960,
+        "lts": 1,
+        "max": 42.815675,
+        "min": 42.792945,
+        "msm_id": 2004,
+        "msm_name": "Ping",
+        "prb_id": 33128,
+        "proto": "ICMP",
+        "rcvd": 3,
+        "result": [
+            {
+                "rtt": 42.815675
+            },
+            {
+                "rtt": 42.81525
+            },
+            {
+                "rtt": 42.792945
+            }
+        ],
+        "sent": 3,
+        "size": 20,
+        "src_addr": "2a00:1590:7::1",
+        "step": 240,
+        "stored_timestamp": 1556697750,
+        "timestamp": 1556697612,
+        "ttl": 57,
+        "type": "ping"
+    },
+    {
+        "af": 6,
+        "avg": 42.8511483333,
+        "dst_addr": "2001:500:2f::f",
+        "dst_name": "2001:500:2f::f",
+        "dup": 0,
+        "from": "2a00:1590:7::1",
+        "fw": 4960,
+        "lts": 50,
+        "max": 42.86431,
+        "min": 42.835865,
+        "msm_id": 2004,
+        "msm_name": "Ping",
+        "prb_id": 33128,
+        "proto": "ICMP",
+        "rcvd": 3,
+        "result": [
+            {
+                "rtt": 42.85327
+            },
+            {
+                "rtt": 42.86431
+            },
+            {
+                "rtt": 42.835865
+            }
+        ],
+        "sent": 3,
+        "size": 20,
+        "src_addr": "2a00:1590:7::1",
+        "step": 240,
+        "stored_timestamp": 1556697984,
+        "timestamp": 1556697855,
+        "ttl": 57,
+        "type": "ping"
+    },
+    {
+        "af": 6,
+        "avg": 42.8792983333,
+        "dst_addr": "2001:500:2f::f",
+        "dst_name": "2001:500:2f::f",
+        "dup": 0,
+        "from": "2a00:1590:7::1",
+        "fw": 4960,
+        "lts": 115,
+        "max": 42.902055,
+        "min": 42.840065,
+        "msm_id": 2004,
+        "msm_name": "Ping",
+        "prb_id": 33128,
+        "proto": "ICMP",
+        "rcvd": 3,
+        "result": [
+            {
+                "rtt": 42.840065
+            },
+            {
+                "rtt": 42.895775
+            },
+            {
+                "rtt": 42.902055
+            }
+        ],
+        "sent": 3,
+        "size": 20,
+        "src_addr": "2a00:1590:7::1",
+        "step": 240,
+        "stored_timestamp": 1556698172,
+        "timestamp": 1556698092,
+        "ttl": 57,
+        "type": "ping"
+    },
+    {
+        "af": 6,
+        "avg": 42.8294933333,
+        "dst_addr": "2001:500:2f::f",
+        "dst_name": "2001:500:2f::f",
+        "dup": 0,
+        "from": "2a00:1590:7::1",
+        "fw": 4960,
+        "lts": 1,
+        "max": 42.84504,
+        "min": 42.820695,
+        "msm_id": 2004,
+        "msm_name": "Ping",
+        "prb_id": 33128,
+        "proto": "ICMP",
+        "rcvd": 3,
+        "result": [
+            {
+                "rtt": 42.822745
+            },
+            {
+                "rtt": 42.820695
+            },
+            {
+                "rtt": 42.84504
+            }
+        ],
+        "sent": 3,
+        "size": 20,
+        "src_addr": "2a00:1590:7::1",
+        "step": 240,
+        "stored_timestamp": 1556698461,
+        "timestamp": 1556698335,
+        "ttl": 57,
+        "type": "ping"
+    },
+    {
+        "af": 6,
+        "avg": 42.8108116667,
+        "dst_addr": "2001:500:2f::f",
+        "dst_name": "2001:500:2f::f",
+        "dup": 0,
+        "from": "2a00:1590:7::1",
+        "fw": 4960,
+        "lts": 51,
+        "max": 42.82,
+        "min": 42.804565,
+        "msm_id": 2004,
+        "msm_name": "Ping",
+        "prb_id": 33128,
+        "proto": "ICMP",
+        "rcvd": 3,
+        "result": [
+            {
+                "rtt": 42.804565
+            },
+            {
+                "rtt": 42.80787
+            },
+            {
+                "rtt": 42.82
+            }
+        ],
+        "sent": 3,
+        "size": 20,
+        "src_addr": "2a00:1590:7::1",
+        "step": 240,
+        "stored_timestamp": 1556698697,
+        "timestamp": 1556698573,
+        "ttl": 57,
+        "type": "ping"
+    },
+    {
+        "af": 6,
+        "avg": 42.8268116667,
+        "dst_addr": "2001:500:2f::f",
+        "dst_name": "2001:500:2f::f",
+        "dup": 0,
+        "from": "2a00:1590:7::1",
+        "fw": 4960,
+        "lts": 3,
+        "max": 42.83998,
+        "min": 42.806195,
+        "msm_id": 2004,
+        "msm_name": "Ping",
+        "prb_id": 33128,
+        "proto": "ICMP",
+        "rcvd": 3,
+        "result": [
+            {
+                "rtt": 42.83426
+            },
+            {
+                "rtt": 42.83998
+            },
+            {
+                "rtt": 42.806195
+            }
+        ],
+        "sent": 3,
+        "size": 20,
+        "src_addr": "2a00:1590:7::1",
+        "step": 240,
+        "stored_timestamp": 1556698885,
+        "timestamp": 1556698813,
+        "ttl": 57,
+        "type": "ping"
+    },
+    {
+        "af": 6,
+        "avg": 42.8134066667,
+        "dst_addr": "2001:500:2f::f",
+        "dst_name": "2001:500:2f::f",
+        "dup": 0,
+        "from": "2a00:1590:7::1",
+        "fw": 4960,
+        "lts": 1,
+        "max": 42.837855,
+        "min": 42.797795,
+        "msm_id": 2004,
+        "msm_name": "Ping",
+        "prb_id": 33128,
+        "proto": "ICMP",
+        "rcvd": 3,
+        "result": [
+            {
+                "rtt": 42.797795
+            },
+            {
+                "rtt": 42.80457
+            },
+            {
+                "rtt": 42.837855
+            }
+        ],
+        "sent": 3,
+        "size": 20,
+        "src_addr": "2a00:1590:7::1",
+        "step": 240,
+        "stored_timestamp": 1556699160,
+        "timestamp": 1556699055,
+        "ttl": 57,
+        "type": "ping"
+    },
+    {
+        "af": 6,
+        "avg": 42.835905,
+        "dst_addr": "2001:500:2f::f",
+        "dst_name": "2001:500:2f::f",
+        "dup": 0,
+        "from": "2a00:1590:7::1",
+        "fw": 4960,
+        "lts": 13,
+        "max": 42.844235,
+        "min": 42.82316,
+        "msm_id": 2004,
+        "msm_name": "Ping",
+        "prb_id": 33128,
+        "proto": "ICMP",
+        "rcvd": 3,
+        "result": [
+            {
+                "rtt": 42.84032
+            },
+            {
+                "rtt": 42.82316
+            },
+            {
+                "rtt": 42.844235
+            }
+        ],
+        "sent": 3,
+        "size": 20,
+        "src_addr": "2a00:1590:7::1",
+        "step": 240,
+        "stored_timestamp": 1556699411,
+        "timestamp": 1556699294,
+        "ttl": 57,
+        "type": "ping"
+    },
+    {
+        "af": 6,
+        "avg": 42.9132783333,
+        "dst_addr": "2001:500:2f::f",
+        "dst_name": "2001:500:2f::f",
+        "dup": 0,
+        "from": "2a00:1590:7::1",
+        "fw": 4960,
+        "lts": 6,
+        "max": 42.93816,
+        "min": 42.88759,
+        "msm_id": 2004,
+        "msm_name": "Ping",
+        "prb_id": 33128,
+        "proto": "ICMP",
+        "rcvd": 3,
+        "result": [
+            {
+                "rtt": 42.88759
+            },
+            {
+                "rtt": 42.93816
+            },
+            {
+                "rtt": 42.914085
+            }
+        ],
+        "sent": 3,
+        "size": 20,
+        "src_addr": "2a00:1590:7::1",
+        "step": 240,
+        "stored_timestamp": 1556699610,
+        "timestamp": 1556699535,
+        "ttl": 57,
+        "type": "ping"
+    },
+    {
+        "af": 6,
+        "avg": 42.84812,
+        "dst_addr": "2001:500:2f::f",
+        "dst_name": "2001:500:2f::f",
+        "dup": 0,
+        "from": "2a00:1590:7::1",
+        "fw": 4960,
+        "lts": 13,
+        "max": 42.875775,
+        "min": 42.83212,
+        "msm_id": 2004,
+        "msm_name": "Ping",
+        "prb_id": 33128,
+        "proto": "ICMP",
+        "rcvd": 3,
+        "result": [
+            {
+                "rtt": 42.875775
+            },
+            {
+                "rtt": 42.836465
+            },
+            {
+                "rtt": 42.83212
+            }
+        ],
+        "sent": 3,
+        "size": 20,
+        "src_addr": "2a00:1590:7::1",
+        "step": 240,
+        "stored_timestamp": 1556699888,
+        "timestamp": 1556699772,
+        "ttl": 57,
+        "type": "ping"
+    },
+    {
+        "af": 6,
+        "avg": 42.87073,
+        "dst_addr": "2001:500:2f::f",
+        "dst_name": "2001:500:2f::f",
+        "dup": 0,
+        "from": "2a00:1590:7::1",
+        "fw": 4960,
+        "lts": 45,
+        "max": 42.890355,
+        "min": 42.856785,
+        "msm_id": 2004,
+        "msm_name": "Ping",
+        "prb_id": 33128,
+        "proto": "ICMP",
+        "rcvd": 3,
+        "result": [
+            {
+                "rtt": 42.856785
+            },
+            {
+                "rtt": 42.86505
+            },
+            {
+                "rtt": 42.890355
+            }
+        ],
+        "sent": 3,
+        "size": 20,
+        "src_addr": "2a00:1590:7::1",
+        "step": 240,
+        "stored_timestamp": 1556700131,
+        "timestamp": 1556700012,
+        "ttl": 57,
+        "type": "ping"
+    },
+    {
+        "af": 6,
+        "avg": 49.1862216667,
+        "dst_addr": "2001:500:2f::f",
+        "dst_name": "2001:500:2f::f",
+        "dup": 0,
+        "from": "2a00:1590:7::1",
+        "fw": 4960,
+        "lts": 29,
+        "max": 49.20831,
+        "min": 49.168845,
+        "msm_id": 2004,
+        "msm_name": "Ping",
+        "prb_id": 33128,
+        "proto": "ICMP",
+        "rcvd": 3,
+        "result": [
+            {
+                "rtt": 49.168845
+            },
+            {
+                "rtt": 49.20831
+            },
+            {
+                "rtt": 49.18151
+            }
+        ],
+        "sent": 3,
+        "size": 20,
+        "src_addr": "2a00:1590:7::1",
+        "step": 240,
+        "stored_timestamp": 1556700323,
+        "timestamp": 1556700252,
+        "ttl": 57,
+        "type": "ping"
+    },
+    {
+        "af": 6,
+        "avg": 49.2318183333,
+        "dst_addr": "2001:500:2f::f",
+        "dst_name": "2001:500:2f::f",
+        "dup": 0,
+        "from": "2a00:1590:7::1",
+        "fw": 4960,
+        "lts": 7,
+        "max": 49.25504,
+        "min": 49.19176,
+        "msm_id": 2004,
+        "msm_name": "Ping",
+        "prb_id": 33128,
+        "proto": "ICMP",
+        "rcvd": 3,
+        "result": [
+            {
+                "rtt": 49.25504
+            },
+            {
+                "rtt": 49.19176
+            },
+            {
+                "rtt": 49.248655
+            }
+        ],
+        "sent": 3,
+        "size": 20,
+        "src_addr": "2a00:1590:7::1",
+        "step": 240,
+        "stored_timestamp": 1556700631,
+        "timestamp": 1556700493,
+        "ttl": 57,
+        "type": "ping"
+    },
+    {
+        "af": 6,
+        "avg": 49.222985,
+        "dst_addr": "2001:500:2f::f",
+        "dst_name": "2001:500:2f::f",
+        "dup": 0,
+        "from": "2a00:1590:7::1",
+        "fw": 4960,
+        "lts": 45,
+        "max": 49.246515,
+        "min": 49.20668,
+        "msm_id": 2004,
+        "msm_name": "Ping",
+        "prb_id": 33128,
+        "proto": "ICMP",
+        "rcvd": 3,
+        "result": [
+            {
+                "rtt": 49.20668
+            },
+            {
+                "rtt": 49.21576
+            },
+            {
+                "rtt": 49.246515
+            }
+        ],
+        "sent": 3,
+        "size": 20,
+        "src_addr": "2a00:1590:7::1",
+        "step": 240,
+        "stored_timestamp": 1556700863,
+        "timestamp": 1556700734,
+        "ttl": 57,
+        "type": "ping"
+    },
+    {
+        "af": 6,
+        "avg": 49.2144716667,
+        "dst_addr": "2001:500:2f::f",
+        "dst_name": "2001:500:2f::f",
+        "dup": 0,
+        "from": "2a00:1590:7::1",
+        "fw": 4960,
+        "lts": 5,
+        "max": 49.240535,
+        "min": 49.18403,
+        "msm_id": 2004,
+        "msm_name": "Ping",
+        "prb_id": 33128,
+        "proto": "ICMP",
+        "rcvd": 3,
+        "result": [
+            {
+                "rtt": 49.18403
+            },
+            {
+                "rtt": 49.21885
+            },
+            {
+                "rtt": 49.240535
+            }
+        ],
+        "sent": 3,
+        "size": 20,
+        "src_addr": "2a00:1590:7::1",
+        "step": 240,
+        "stored_timestamp": 1556701053,
+        "timestamp": 1556700974,
+        "ttl": 57,
+        "type": "ping"
+    }
+]

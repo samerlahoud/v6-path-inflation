@@ -1,0 +1,136 @@
+[
+    {
+        "af": 6,
+        "dst_addr": "2001:7fd::1",
+        "dst_name": "2001:7fd::1",
+        "endtime": 1557303942,
+        "from": "2001:14e8:0:405:6666:b3ff:fec5:744",
+        "fw": 4970,
+        "lts": 117,
+        "msm_id": 6001,
+        "msm_name": "Traceroute",
+        "paris_id": 7,
+        "prb_id": 17437,
+        "proto": "UDP",
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "2001:14e8:0:405::65",
+                        "rtt": 2.501,
+                        "size": 88,
+                        "ttl": 64
+                    },
+                    {
+                        "from": "2001:14e8:0:405::65",
+                        "rtt": 1.075,
+                        "size": 88,
+                        "ttl": 64
+                    },
+                    {
+                        "from": "2001:14e8:0:405::65",
+                        "rtt": 2.045,
+                        "size": 88,
+                        "ttl": 64
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "2001:7fd::1",
+                        "rtt": 0.457,
+                        "size": 88,
+                        "ttl": 63
+                    },
+                    {
+                        "from": "2001:7fd::1",
+                        "rtt": 0.497,
+                        "size": 88,
+                        "ttl": 63
+                    },
+                    {
+                        "from": "2001:7fd::1",
+                        "rtt": 0.515,
+                        "size": 88,
+                        "ttl": 63
+                    }
+                ]
+            }
+        ],
+        "size": 40,
+        "src_addr": "2001:14e8:0:405:6666:b3ff:fec5:744",
+        "stored_timestamp": 1557304101,
+        "timestamp": 1557303942,
+        "type": "traceroute"
+    },
+    {
+        "af": 6,
+        "dst_addr": "2001:7fd::1",
+        "dst_name": "2001:7fd::1",
+        "endtime": 1557305740,
+        "from": "2001:14e8:0:405:6666:b3ff:fec5:744",
+        "fw": 4970,
+        "lts": 15,
+        "msm_id": 6001,
+        "msm_name": "Traceroute",
+        "paris_id": 8,
+        "prb_id": 17437,
+        "proto": "UDP",
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "2001:14e8:0:405::65",
+                        "rtt": 13.007,
+                        "size": 88,
+                        "ttl": 64
+                    },
+                    {
+                        "from": "2001:14e8:0:405::65",
+                        "rtt": 0.571,
+                        "size": 88,
+                        "ttl": 64
+                    },
+                    {
+                        "from": "2001:14e8:0:405::65",
+                        "rtt": 0.544,
+                        "size": 88,
+                        "ttl": 64
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "2001:7fd::1",
+                        "rtt": 0.528,
+                        "size": 88,
+                        "ttl": 63
+                    },
+                    {
+                        "from": "2001:7fd::1",
+                        "rtt": 0.5,
+                        "size": 88,
+                        "ttl": 63
+                    },
+                    {
+                        "from": "2001:7fd::1",
+                        "rtt": 0.463,
+                        "size": 88,
+                        "ttl": 63
+                    }
+                ]
+            }
+        ],
+        "size": 40,
+        "src_addr": "2001:14e8:0:405:6666:b3ff:fec5:744",
+        "stored_timestamp": 1557305907,
+        "timestamp": 1557305740,
+        "type": "traceroute"
+    }
+]

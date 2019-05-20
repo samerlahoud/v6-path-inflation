@@ -1,0 +1,52 @@
+[
+    {
+        "af": 6,
+        "dst_addr": "2001:dc3::35",
+        "dst_name": "2001:dc3::35",
+        "endtime": 1557908475,
+        "from": "fd3c:dfbd:574c:a500:1:feff:fe02:d48c",
+        "fw": 4970,
+        "lts": 4,
+        "msm_id": 6006,
+        "msm_name": "Traceroute",
+        "paris_id": 9,
+        "prb_id": 50768,
+        "proto": "UDP",
+        "result": [
+            {
+                "error": "connect failed: Permission denied",
+                "hop": 1
+            }
+        ],
+        "size": 40,
+        "src_addr": "",
+        "stored_timestamp": 1557908605,
+        "timestamp": 1557908475,
+        "type": "traceroute"
+    },
+    {
+        "af": 6,
+        "dst_addr": "2001:dc3::35",
+        "dst_name": "2001:dc3::35",
+        "endtime": 1557910277,
+        "from": "fd3c:dfbd:574c:a500:1:feff:fe02:d48c",
+        "fw": 4970,
+        "lts": 3,
+        "msm_id": 6006,
+        "msm_name": "Traceroute",
+        "paris_id": 10,
+        "prb_id": 50768,
+        "proto": "UDP",
+        "result": [
+            {
+                "error": "connect failed: Permission denied",
+                "hop": 1
+            }
+        ],
+        "size": 40,
+        "src_addr": "",
+        "stored_timestamp": 1557910411,
+        "timestamp": 1557910277,
+        "type": "traceroute"
+    }
+]

@@ -1,0 +1,222 @@
+[
+    {
+        "af": 6,
+        "dst_addr": "2001:503:c27::2:30",
+        "dst_name": "2001:503:c27::2:30",
+        "endtime": 1557907740,
+        "from": "2a0b:b400:2:0:1ad6:c7ff:fef2:ef60",
+        "fw": 4970,
+        "lts": 45,
+        "msm_id": 6016,
+        "msm_name": "Traceroute",
+        "paris_id": 10,
+        "prb_id": 32884,
+        "proto": "UDP",
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "2a0b:b400:2::1",
+                        "rtt": 0.624,
+                        "size": 88,
+                        "ttl": 255
+                    },
+                    {
+                        "from": "2a0b:b400:2::1",
+                        "rtt": 0.491,
+                        "size": 88,
+                        "ttl": 255
+                    },
+                    {
+                        "from": "2a0b:b400:2::1",
+                        "rtt": 0.478,
+                        "size": 88,
+                        "ttl": 255
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "fc05::2",
+                        "rtt": 6.86,
+                        "size": 88,
+                        "ttl": 63
+                    },
+                    {
+                        "from": "fc05::2",
+                        "rtt": 7.22,
+                        "size": 88,
+                        "ttl": 63
+                    },
+                    {
+                        "from": "fc05::2",
+                        "rtt": 5.415,
+                        "size": 88,
+                        "ttl": 63
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "fc04::3",
+                        "rtt": 3.583,
+                        "size": 88,
+                        "ttl": 62
+                    },
+                    {
+                        "from": "fc04::3",
+                        "rtt": 1.003,
+                        "size": 88,
+                        "ttl": 62
+                    },
+                    {
+                        "from": "fc04::3",
+                        "rtt": 1.054,
+                        "size": 88,
+                        "ttl": 62
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "err": "H",
+                        "from": "fc04::3",
+                        "rtt": 1487.356,
+                        "size": 88,
+                        "ttl": 62
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "err": "H",
+                        "from": "fc04::3",
+                        "rtt": 162.512,
+                        "size": 88,
+                        "ttl": 62
+                    }
+                ]
+            }
+        ],
+        "size": 40,
+        "src_addr": "2a0b:b400:2:0:1ad6:c7ff:fef2:ef60",
+        "stored_timestamp": 1557907800,
+        "timestamp": 1557907734,
+        "type": "traceroute"
+    },
+    {
+        "af": 6,
+        "dst_addr": "2001:503:c27::2:30",
+        "dst_name": "2001:503:c27::2:30",
+        "endtime": 1557909546,
+        "from": "2a0b:b400:2:0:1ad6:c7ff:fef2:ef60",
+        "fw": 4970,
+        "lts": 52,
+        "msm_id": 6016,
+        "msm_name": "Traceroute",
+        "paris_id": 11,
+        "prb_id": 32884,
+        "proto": "UDP",
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "2a0b:b400:2::1",
+                        "rtt": 0.522,
+                        "size": 88,
+                        "ttl": 255
+                    },
+                    {
+                        "from": "2a0b:b400:2::1",
+                        "rtt": 0.463,
+                        "size": 88,
+                        "ttl": 255
+                    },
+                    {
+                        "from": "2a0b:b400:2::1",
+                        "rtt": 0.454,
+                        "size": 88,
+                        "ttl": 255
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "fc05::2",
+                        "rtt": 7.218,
+                        "size": 88,
+                        "ttl": 63
+                    },
+                    {
+                        "from": "fc05::2",
+                        "rtt": 5.718,
+                        "size": 88,
+                        "ttl": 63
+                    },
+                    {
+                        "from": "fc05::2",
+                        "rtt": 5.604,
+                        "size": 88,
+                        "ttl": 63
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "from": "fc04::3",
+                        "rtt": 3.528,
+                        "size": 88,
+                        "ttl": 62
+                    },
+                    {
+                        "from": "fc04::3",
+                        "rtt": 0.97,
+                        "size": 88,
+                        "ttl": 62
+                    },
+                    {
+                        "from": "fc04::3",
+                        "rtt": 1.073,
+                        "size": 88,
+                        "ttl": 62
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "err": "H",
+                        "from": "fc04::3",
+                        "rtt": 3281.727,
+                        "size": 88,
+                        "ttl": 62
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            }
+        ],
+        "size": 40,
+        "src_addr": "2a0b:b400:2:0:1ad6:c7ff:fef2:ef60",
+        "stored_timestamp": 1557909661,
+        "timestamp": 1557909535,
+        "type": "traceroute"
+    }
+]
