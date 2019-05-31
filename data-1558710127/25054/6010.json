@@ -1,0 +1,96 @@
+[
+    {
+        "af": 6,
+        "dst_addr": "2001:500:200::b",
+        "dst_name": "2001:500:200::b",
+        "endtime": 1558722321,
+        "from": "2001:db8:0:20:eade:27ff:fec9:71f0",
+        "fw": 4970,
+        "lts": 4,
+        "msm_id": 6010,
+        "msm_name": "Traceroute",
+        "paris_id": 0,
+        "prb_id": 25054,
+        "proto": "UDP",
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "err": "N",
+                        "from": "2001:db8:0:20::2",
+                        "rtt": 33.415,
+                        "size": 88,
+                        "ttl": 64
+                    },
+                    {
+                        "err": "N",
+                        "from": "2001:db8:0:20::2",
+                        "rtt": 194.472,
+                        "size": 88,
+                        "ttl": 64
+                    },
+                    {
+                        "err": "N",
+                        "from": "2001:db8:0:20::2",
+                        "rtt": 31.276,
+                        "size": 88,
+                        "ttl": 64
+                    }
+                ]
+            }
+        ],
+        "size": 40,
+        "src_addr": "2001:db8:0:20:eade:27ff:fec9:71f0",
+        "stored_timestamp": 1558722469,
+        "timestamp": 1558722320,
+        "type": "traceroute"
+    },
+    {
+        "af": 6,
+        "dst_addr": "2001:500:200::b",
+        "dst_name": "2001:500:200::b",
+        "endtime": 1558724122,
+        "from": "2001:db8:0:20:eade:27ff:fec9:71f0",
+        "fw": 4970,
+        "lts": 6,
+        "msm_id": 6010,
+        "msm_name": "Traceroute",
+        "paris_id": 1,
+        "prb_id": 25054,
+        "proto": "UDP",
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "err": "N",
+                        "from": "2001:db8:0:20::2",
+                        "rtt": 0.455,
+                        "size": 88,
+                        "ttl": 64
+                    },
+                    {
+                        "err": "N",
+                        "from": "2001:db8:0:20::2",
+                        "rtt": 0.331,
+                        "size": 88,
+                        "ttl": 64
+                    },
+                    {
+                        "err": "N",
+                        "from": "2001:db8:0:20::2",
+                        "rtt": 0.354,
+                        "size": 88,
+                        "ttl": 64
+                    }
+                ]
+            }
+        ],
+        "size": 40,
+        "src_addr": "2001:db8:0:20:eade:27ff:fec9:71f0",
+        "stored_timestamp": 1558726292,
+        "timestamp": 1558724122,
+        "type": "traceroute"
+    }
+]

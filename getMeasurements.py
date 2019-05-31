@@ -3,7 +3,9 @@ from ripe.atlas.cousteau import AtlasResultsRequest
 from datetime import datetime, timedelta
 import os
 
-start_date = datetime(2019, 5, 15, 8)-timedelta(days=20,hours=12)
+#start_date = datetime(2019, 5, 15, 8)-timedelta(days=20,hours=12)
+#stop_date = start_date + timedelta(hours=1)
+start_date = datetime.utcnow()-timedelta(hours=2)
 stop_date = start_date + timedelta(hours=1)
 with open('probes.json', 'r') as f:
     probes = json.load(f)

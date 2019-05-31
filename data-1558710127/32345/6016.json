@@ -1,0 +1,154 @@
+[
+    {
+        "af": 6,
+        "dst_addr": "2001:503:c27::2:30",
+        "dst_name": "2001:503:c27::2:30",
+        "endtime": 1558722240,
+        "from": "2001:470:76d1:b0:1ad6:c7ff:fe29:fea4",
+        "fw": 4970,
+        "lts": 29,
+        "msm_id": 6016,
+        "msm_name": "Traceroute",
+        "paris_id": 3,
+        "prb_id": 32345,
+        "proto": "UDP",
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "err": "N",
+                        "from": "2001:470:76d1:b0::",
+                        "rtt": 0.459,
+                        "size": 88,
+                        "ttl": 255
+                    },
+                    {
+                        "err": "N",
+                        "from": "2001:470:76d1:b0::",
+                        "rtt": 0.443,
+                        "size": 88,
+                        "ttl": 255
+                    },
+                    {
+                        "err": "N",
+                        "from": "2001:470:76d1:b0::",
+                        "rtt": 0.439,
+                        "size": 88,
+                        "ttl": 255
+                    }
+                ]
+            }
+        ],
+        "size": 40,
+        "src_addr": "2001:470:76d1:b0:1ad6:c7ff:fe29:fea4",
+        "stored_timestamp": 1558722297,
+        "timestamp": 1558722240,
+        "type": "traceroute"
+    },
+    {
+        "af": 6,
+        "dst_addr": "2001:503:c27::2:30",
+        "dst_name": "2001:503:c27::2:30",
+        "endtime": 1558724112,
+        "from": "2001:470:76d1:b0:1ad6:c7ff:fe29:fea4",
+        "fw": 4970,
+        "lts": 42,
+        "msm_id": 6016,
+        "msm_name": "Traceroute",
+        "paris_id": 4,
+        "prb_id": 32345,
+        "proto": "UDP",
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 3,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 4,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 5,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 255,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            }
+        ],
+        "size": 40,
+        "src_addr": "2001:470:76d1:b0:1ad6:c7ff:fe29:fea4",
+        "stored_timestamp": 1558724219,
+        "timestamp": 1558724040,
+        "type": "traceroute"
+    }
+]
