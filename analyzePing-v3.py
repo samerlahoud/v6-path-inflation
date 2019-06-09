@@ -76,7 +76,7 @@ def compute_stat_list(stat_value):
     rtt_diff_list = [x-y for (x,y) in zip(rtt_v4_list,rtt_v6_list)]
     return rtt_v4_list, rtt_v6_list, rtt_diff_list
 
-def cdf_plot(rtt_v4, rtt_v6):
+def cdf_plot(rtt_v4, rtt_v6, stat_type):
     n_bins = 100000
     fig, ax = plt.subplots(figsize=(8, 6))
     # plot the cumulative histogram
@@ -92,12 +92,26 @@ def cdf_plot(rtt_v4, rtt_v6):
     # tidy up the figure
     ax.grid(True)
     #ax.legend(loc='right')
-    ax.set_xlabel('RTT difference between IPv4 and IPv6 (msec)')
+    ax.set_xlabel('RTT {} (msec)'.format(stat_type))
+    ax.legend(['IPv4', 'IPv6'])
     ax.set_ylabel('CDF')
     #ax.set_xlim(0,400)
     ax.set_xscale('log')
 
-    plt.show()
+    plt.savefig('{}/rtt-{}-cdf.eps'.format(result_folder, stat_type))
+
+def hist_plot(rtt, stat_type):
+    num_bins = 20
+    fig, ax = plt.subplots()
+
+    # the histogram of the data
+    n, bins, patches = ax.hist(rtt, num_bins, density=1)
+    ax.set_ylabel('Probability density')
+    ax.set_xlabel('RTT {} (msec)'.format(stat_type))
+    ax.grid(True)
+    # Tweak spacing to prevent clipping of ylabel
+    fig.tight_layout()
+    plt.savefig('{}/rtt-{}-hist.eps'.format(result_folder, stat_type))
 
 def diag_plot(rtt_v4, rtt_v6):
     fig, ax = plt.subplots(figsize=(8, 6))
@@ -121,16 +135,19 @@ if __name__ == "__main__":
         country_code = None
 
     data_folder = Path('./')
+    result_folder = './results'
     rtt_stat_dict = {}
     get_stat(country_code)
     
     with open("results/rtt_stat_dict.json", "w") as f:
         json.dump(rtt_stat_dict, f, indent=4, sort_keys=True)
-    
+   
     med_rtt_v4, med_rtt_v6, med_rtt_diff = compute_stat_list('med')
     max_rtt_v4, max_rtt_v6, max_rtt_diff = compute_stat_list('max')
     min_rtt_v4, min_rtt_v6, min_rtt_diff = compute_stat_list('min')
 
-    cdf_plot(max_rtt_v4, max_rtt_v6)
-    cdf_plot(med_rtt_v4, med_rtt_v6)
-    cdf_plot(min_rtt_v4, min_rtt_v6)
+    cdf_plot(max_rtt_v4, max_rtt_v6, 'maximum')
+    cdf_plot(med_rtt_v4, med_rtt_v6, 'median')
+    cdf_plot(min_rtt_v4, min_rtt_v6, 'minimum')
+
+    hist_plot(min_rtt_diff, 'minimum')

@@ -1,0 +1,92 @@
+[
+    {
+        "af": 6,
+        "dst_addr": "2001:dc3::35",
+        "dst_name": "2001:dc3::35",
+        "endtime": 1559829670,
+        "from": "2a01:778:1c:fc0b:220:4aff:fec5:5b21",
+        "fw": 4790,
+        "lts": 17,
+        "msm_id": 6006,
+        "msm_name": "Traceroute",
+        "paris_id": 0,
+        "prb_id": 745,
+        "proto": "UDP",
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "err": "H",
+                        "from": "2a01:778:1c:fc0b:220:4aff:fec5:5b21",
+                        "rtt": 1700.574,
+                        "size": 88,
+                        "ttl": 64
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "err": "H",
+                        "from": "2a01:778:1c:fc0b:220:4aff:fec5:5b21",
+                        "rtt": 2201.855,
+                        "size": 88,
+                        "ttl": 64
+                    }
+                ]
+            }
+        ],
+        "size": 40,
+        "src_addr": "2a01:778:1c:fc0b:220:4aff:fec5:5b21",
+        "stored_timestamp": 1559829846,
+        "timestamp": 1559829662,
+        "type": "traceroute"
+    },
+    {
+        "af": 6,
+        "dst_addr": "2001:dc3::35",
+        "dst_name": "2001:dc3::35",
+        "endtime": 1559831470,
+        "from": "2a01:778:1c:fc0b:220:4aff:fec5:5b21",
+        "fw": 4790,
+        "lts": 48,
+        "msm_id": 6006,
+        "msm_name": "Traceroute",
+        "paris_id": 1,
+        "prb_id": 745,
+        "proto": "UDP",
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "err": "H",
+                        "from": "2a01:778:1c:fc0b:220:4aff:fec5:5b21",
+                        "rtt": 833.787,
+                        "size": 88,
+                        "ttl": 64
+                    },
+                    {
+                        "err": "H",
+                        "from": "2a01:778:1c:fc0b:220:4aff:fec5:5b21",
+                        "rtt": 3014.831,
+                        "size": 88,
+                        "ttl": 64
+                    },
+                    {
+                        "err": "H",
+                        "from": "2a01:778:1c:fc0b:220:4aff:fec5:5b21",
+                        "rtt": 3014.715,
+                        "size": 88,
+                        "ttl": 64
+                    }
+                ]
+            }
+        ],
+        "size": 40,
+        "src_addr": "2a01:778:1c:fc0b:220:4aff:fec5:5b21",
+        "stored_timestamp": 1559831784,
+        "timestamp": 1559831463,
+        "type": "traceroute"
+    }
+]

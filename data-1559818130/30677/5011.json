@@ -1,0 +1,129 @@
+[
+    {
+        "af": 4,
+        "dst_addr": "192.33.4.12",
+        "dst_name": "192.33.4.12",
+        "endtime": 1559829247,
+        "from": "",
+        "fw": 4970,
+        "lts": 14,
+        "msm_id": 5011,
+        "msm_name": "Traceroute",
+        "paris_id": 11,
+        "prb_id": 30677,
+        "proto": "UDP",
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "10.0.0.5",
+                        "rtt": 0.661,
+                        "size": 68,
+                        "ttl": 64
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "10.0.0.5",
+                        "rtt": 0.556,
+                        "size": 68,
+                        "ttl": 64
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "err": "N",
+                        "from": "10.0.0.3",
+                        "rtt": 0.782,
+                        "size": 68,
+                        "ttl": 64
+                    },
+                    {
+                        "err": "N",
+                        "from": "10.0.0.3",
+                        "rtt": 0.718,
+                        "size": 68,
+                        "ttl": 64
+                    },
+                    {
+                        "err": "N",
+                        "from": "10.0.0.3",
+                        "rtt": 0.702,
+                        "size": 68,
+                        "ttl": 64
+                    }
+                ]
+            }
+        ],
+        "size": 40,
+        "src_addr": "10.0.0.39",
+        "stored_timestamp": 1559829375,
+        "timestamp": 1559829246,
+        "type": "traceroute"
+    },
+    {
+        "af": 4,
+        "dst_addr": "192.33.4.12",
+        "dst_name": "192.33.4.12",
+        "endtime": 1559831048,
+        "from": "",
+        "fw": 4970,
+        "lts": 15,
+        "msm_id": 5011,
+        "msm_name": "Traceroute",
+        "paris_id": 12,
+        "prb_id": 30677,
+        "proto": "UDP",
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "from": "10.0.0.5",
+                        "rtt": 0.596,
+                        "size": 68,
+                        "ttl": 64
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "err": "N",
+                        "from": "10.0.0.3",
+                        "rtt": 0.818,
+                        "size": 68,
+                        "ttl": 64
+                    },
+                    {
+                        "err": "N",
+                        "from": "10.0.0.3",
+                        "rtt": 0.622,
+                        "size": 68,
+                        "ttl": 64
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            }
+        ],
+        "size": 40,
+        "src_addr": "10.0.0.39",
+        "stored_timestamp": 1559831688,
+        "timestamp": 1559831045,
+        "type": "traceroute"
+    }
+]

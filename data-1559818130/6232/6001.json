@@ -1,0 +1,121 @@
+[
+    {
+        "af": 6,
+        "dst_addr": "2001:7fd::1",
+        "dst_name": "2001:7fd::1",
+        "endtime": 1559829815,
+        "from": "2a00:4520:2:2::22",
+        "fw": 4970,
+        "lts": 106,
+        "msm_id": 6001,
+        "msm_name": "Traceroute",
+        "paris_id": 9,
+        "prb_id": 6232,
+        "proto": "UDP",
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "2001:7fd::1",
+                        "rtt": 1.417,
+                        "size": 88,
+                        "ttl": 63
+                    },
+                    {
+                        "from": "2001:7fd::1",
+                        "rtt": 1.682,
+                        "size": 88,
+                        "ttl": 63
+                    },
+                    {
+                        "from": "2001:7fd::1",
+                        "rtt": 4.729,
+                        "size": 88,
+                        "ttl": 63
+                    }
+                ]
+            }
+        ],
+        "size": 40,
+        "src_addr": "2a00:4520:2:2::22",
+        "stored_timestamp": 1559829957,
+        "timestamp": 1559829803,
+        "type": "traceroute"
+    },
+    {
+        "af": 6,
+        "dst_addr": "2001:7fd::1",
+        "dst_name": "2001:7fd::1",
+        "endtime": 1559831611,
+        "from": "2a00:4520:2:2::22",
+        "fw": 4970,
+        "lts": 154,
+        "msm_id": 6001,
+        "msm_name": "Traceroute",
+        "paris_id": 10,
+        "prb_id": 6232,
+        "proto": "UDP",
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "from": "2a00:4520:2:2::21",
+                        "rtt": 1.667,
+                        "size": 88,
+                        "ttl": 64
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            },
+            {
+                "hop": 2,
+                "result": [
+                    {
+                        "from": "2001:7fd::1",
+                        "rtt": 1.419,
+                        "size": 88,
+                        "ttl": 63
+                    },
+                    {
+                        "from": "2001:7fd::1",
+                        "rtt": 1.654,
+                        "size": 88,
+                        "ttl": 63
+                    },
+                    {
+                        "from": "2001:7fd::1",
+                        "rtt": 2.497,
+                        "size": 88,
+                        "ttl": 63
+                    }
+                ]
+            }
+        ],
+        "size": 40,
+        "src_addr": "2a00:4520:2:2::22",
+        "stored_timestamp": 1559831858,
+        "timestamp": 1559831603,
+        "type": "traceroute"
+    }
+]

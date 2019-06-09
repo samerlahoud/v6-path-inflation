@@ -59,6 +59,29 @@ def compute_stat_list(stat_value):
     nb_hops_diff_list = [x-y for (x,y) in zip(nb_hops_v4_list,nb_hops_v6_list)]
     return nb_hops_v4_list, nb_hops_v6_list, nb_hops_diff_list
 
+def cdf_plot(nb_hops_v4, nb_hops_v6):
+    n_bins = 100000
+    fig, ax = plt.subplots(figsize=(8, 6))
+    # plot the cumulative histogram
+
+    counts, bin_edges = np.histogram(nb_hops_v4, bins=n_bins)
+    cdf = np.cumsum(counts)
+    ax.plot(bin_edges[1:], cdf/cdf[-1])
+
+    counts, bin_edges = np.histogram(nb_hops_v6, bins=n_bins)
+    cdf = np.cumsum(counts)
+    ax.plot(bin_edges[1:], cdf/cdf[-1])
+
+    # tidy up the figure
+    ax.grid(True)
+    #ax.legend(loc='right')
+    ax.set_xlabel('Hop difference between IPv4 and IPv6')
+    ax.set_ylabel('CDF')
+    #ax.set_xlim(0,400)
+    #ax.set_xscale('log')
+
+    plt.show()
+
 if __name__ == "__main__":
     with open('builtin_msm_id.json', 'r') as f:
         msm_id_list = json.load(f)
@@ -74,11 +97,9 @@ if __name__ == "__main__":
     data_folder = Path('./')
     trace_stat_dict = {}
     get_stat(country_code)
-    
-    print(trace_stat_dict)
 
     with open("results/trace_stat_dict.json", "w") as f:
         json.dump(trace_stat_dict, f, indent=4, sort_keys=True)
     
     nb_hops_v4, nb_hops_v6, nb_hops_diff = compute_stat_list('nb_hops')
-    print(nb_hops_v4, nb_hops_v6, nb_hops_diff)
+    cdf_plot(nb_hops_v4, nb_hops_v6)

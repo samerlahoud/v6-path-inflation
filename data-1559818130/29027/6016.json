@@ -1,0 +1,84 @@
+[
+    {
+        "af": 6,
+        "dst_addr": "2001:503:c27::2:30",
+        "dst_name": "2001:503:c27::2:30",
+        "endtime": 1559829246,
+        "from": "2a0a:3c44:6::100",
+        "fw": 4970,
+        "lts": 42,
+        "msm_id": 6016,
+        "msm_name": "Traceroute",
+        "paris_id": 6,
+        "prb_id": 29027,
+        "proto": "UDP",
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "err": "N",
+                        "from": "2a0a:3c44:6::1",
+                        "rtt": 0.44,
+                        "size": 88,
+                        "ttl": 255
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "err": "N",
+                        "from": "2a0a:3c44:6::1",
+                        "rtt": 0.443,
+                        "size": 88,
+                        "ttl": 255
+                    }
+                ]
+            }
+        ],
+        "size": 40,
+        "src_addr": "2a0a:3c44:6::100",
+        "stored_timestamp": 1559829387,
+        "timestamp": 1559829242,
+        "type": "traceroute"
+    },
+    {
+        "af": 6,
+        "dst_addr": "2001:503:c27::2:30",
+        "dst_name": "2001:503:c27::2:30",
+        "endtime": 1559831049,
+        "from": "2a0a:3c44:6::100",
+        "fw": 4970,
+        "lts": 39,
+        "msm_id": 6016,
+        "msm_name": "Traceroute",
+        "paris_id": 7,
+        "prb_id": 29027,
+        "proto": "UDP",
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "err": "N",
+                        "from": "2a0a:3c44:6::1",
+                        "rtt": 0.479,
+                        "size": 88,
+                        "ttl": 255
+                    }
+                ]
+            }
+        ],
+        "size": 40,
+        "src_addr": "2a0a:3c44:6::100",
+        "stored_timestamp": 1559831676,
+        "timestamp": 1559831041,
+        "type": "traceroute"
+    }
+]

@@ -1,0 +1,84 @@
+[
+    {
+        "af": 4,
+        "dst_addr": "198.41.0.4",
+        "dst_name": "198.41.0.4",
+        "endtime": 1559830412,
+        "from": "5.36.222.102",
+        "fw": 4970,
+        "lts": 731,
+        "msm_id": 5009,
+        "msm_name": "Traceroute",
+        "paris_id": 10,
+        "prb_id": 20922,
+        "proto": "UDP",
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "err": "N",
+                        "from": "192.168.100.1",
+                        "rtt": 0.764,
+                        "size": 68,
+                        "ttl": 64
+                    },
+                    {
+                        "err": "N",
+                        "from": "192.168.100.1",
+                        "rtt": 0.5,
+                        "size": 68,
+                        "ttl": 64
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            }
+        ],
+        "size": 40,
+        "src_addr": "192.168.100.71",
+        "stored_timestamp": 1559833681,
+        "timestamp": 1559830411,
+        "type": "traceroute"
+    },
+    {
+        "af": 4,
+        "dst_addr": "198.41.0.4",
+        "dst_name": "198.41.0.4",
+        "endtime": 1559832215,
+        "from": "5.36.222.102",
+        "fw": 4970,
+        "lts": 2534,
+        "msm_id": 5009,
+        "msm_name": "Traceroute",
+        "paris_id": 11,
+        "prb_id": 20922,
+        "proto": "UDP",
+        "result": [
+            {
+                "hop": 1,
+                "result": [
+                    {
+                        "err": "N",
+                        "from": "192.168.100.1",
+                        "rtt": 0.683,
+                        "size": 68,
+                        "ttl": 64
+                    },
+                    {
+                        "x": "*"
+                    },
+                    {
+                        "x": "*"
+                    }
+                ]
+            }
+        ],
+        "size": 40,
+        "src_addr": "192.168.100.71",
+        "stored_timestamp": 1559833681,
+        "timestamp": 1559832213,
+        "type": "traceroute"
+    }
+]
