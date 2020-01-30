@@ -6,6 +6,7 @@ import numpy as np
 import sys
 import matplotlib.pyplot as plt
 from collections import defaultdict
+import seaborn as sns
 
 def get_trace_stat(msm_file):
     nb_hops_list = []
@@ -80,7 +81,22 @@ def cdf_plot(nb_hops_v4, nb_hops_v6):
     #ax.set_xlim(0,400)
     #ax.set_xscale('log')
 
-    plt.show()
+    plt.savefig('{}/trace-cdf.eps'.format(result_folder))
+
+def hist_plot(nb_hops):
+    num_bins = 6
+    sns.set()
+    fig, ax = plt.subplots()
+
+    # the histogram of the data
+    #n, bins, patches = ax.hist(nb_hops, bins=[-15,-12,-9,-6,-3,0,3,6,9,12,15], weights=np.ones(len(nb_hops))/len(nb_hops))
+    sns.distplot(nb_hops, kde=False, bins=[-15,-12,-9,-6,-3,0,3,6,9,12,15], hist_kws={'weights':np.ones(len(nb_hops))/len(nb_hops)})
+    ax.set_ylabel('Probability density')
+    ax.set_xlabel('Number of hops difference')
+    ax.grid(axis='y')
+    # Tweak spacing to prevent clipping of ylabel
+    fig.tight_layout()
+    plt.savefig('{}/trace-hist.eps'.format(result_folder))
 
 if __name__ == "__main__":
     with open('builtin_msm_id.json', 'r') as f:
@@ -95,6 +111,7 @@ if __name__ == "__main__":
         country_code = None
 
     data_folder = Path('./')
+    result_folder = './results'
     trace_stat_dict = {}
     get_stat(country_code)
 
@@ -103,3 +120,4 @@ if __name__ == "__main__":
     
     nb_hops_v4, nb_hops_v6, nb_hops_diff = compute_stat_list('nb_hops')
     cdf_plot(nb_hops_v4, nb_hops_v6)
+    hist_plot(nb_hops_diff)

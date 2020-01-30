@@ -11,6 +11,7 @@ import numpy as np
 import sys
 import matplotlib.pyplot as plt
 from collections import defaultdict
+import seaborn as sns
 
 def get_rtt_stat(msm_file):
     med_rtt_list = []
@@ -101,14 +102,16 @@ def cdf_plot(rtt_v4, rtt_v6, stat_type):
     plt.savefig('{}/rtt-{}-cdf.eps'.format(result_folder, stat_type))
 
 def hist_plot(rtt, stat_type):
-    num_bins = 20
+    num_bins = 6
+    sns.set()
     fig, ax = plt.subplots()
 
     # the histogram of the data
-    n, bins, patches = ax.hist(rtt, num_bins, density=1)
+    #n, bins, patches = ax.hist(rtt, bins=[-400, -300, -200, -100, 0, 100, 200, 300, 400], weights=np.ones(len(rtt))/len(rtt))
+    sns.distplot(rtt, kde=False, bins=[-400, -300, -200, -100, 0, 100, 200, 300, 400], hist_kws={'weights':np.ones(len(rtt))/len(rtt)})
     ax.set_ylabel('Probability density')
-    ax.set_xlabel('RTT {} (msec)'.format(stat_type))
-    ax.grid(True)
+    ax.set_xlabel('{} RTT difference (msec)'.format(stat_type))
+    ax.grid(axis='y')
     # Tweak spacing to prevent clipping of ylabel
     fig.tight_layout()
     plt.savefig('{}/rtt-{}-hist.eps'.format(result_folder, stat_type))
@@ -149,5 +152,8 @@ if __name__ == "__main__":
     cdf_plot(max_rtt_v4, max_rtt_v6, 'maximum')
     cdf_plot(med_rtt_v4, med_rtt_v6, 'median')
     cdf_plot(min_rtt_v4, min_rtt_v6, 'minimum')
+    #cdf_plot(min_rtt_diff, min_rtt_diff, 'diff')
 
     hist_plot(min_rtt_diff, 'minimum')
+    hist_plot(max_rtt_diff, 'maximum')
+    hist_plot(med_rtt_diff, 'median')
